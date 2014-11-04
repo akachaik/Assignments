@@ -14,5 +14,10 @@
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/akachaik/Assignments/issues"
+  },
+  "dependencies": {
+    "hapi": "~7.2.0",
+    "handlebars": "~2.0.0",
+    "path": "~0.4.9"
   }
 }
