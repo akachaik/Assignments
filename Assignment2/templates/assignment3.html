@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title>{{title}}</title>
+	<style>
+		.container 
+		{
+			width: 800px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>{{title}}</h1>
+	
+		<h2>Class Selector</h2>
+		<button id="showButton">$(".sample1") Show/Hide</button>
+		<p class="sample1">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultricies urna. Proin volutpat elit id bibendum scelerisque. Aliquam erat volutpat. Cras vitae facilisis leo, eget sagittis purus. Duis id vulputate massa, convallis blandit leo. Ut molestie arcu eget justo blandit, at vestibulum ex dignissim. Nam lobortis tincidunt rutrum.
+		</p>
+		
+		<p class="sample1">
+		Praesent commodo volutpat sem id tristique. Morbi ultricies sapien et risus efficitur molestie sed a dui. Morbi in consequat sapien. Nam vel magna eget risus volutpat consequat. Nam aliquet molestie elit, eu euismod lorem egestas vel. Vivamus posuere pulvinar ultricies. Pellentesque dapibus non ligula et fermentum. Vestibulum in nulla gravida velit aliquam elementum eu eu tortor. Ut tellus odio, lobortis sed sapien sit amet, rhoncus sagittis metus. Duis vitae dolor malesuada, luctus lacus at, vehicula felis. Quisque facilisis venenatis vehicula.
+		</p>
+
+		<h2>Id Selector</h2>
+		<button id="button2">$("#sampl2") Show/Hide</button>
+		<p id="sample2">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<h2>Books</h2>
+		<label for"title">Title</label>
+		<input type="text" id="title" />
+		<br />
+		<label for"author">Author</label>
+		<select id="authors">
+			
+		</select>
+		<button id="addBook">Add Book</button> <button id="removeBook">Remove Book</button>
+
+		<ul id="books">
+			
+		</ul>
+
+	</div>
+	<script type="text/javascript" src="/components/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="/scripts/app.js"></script>
+
+</body>
+</html>

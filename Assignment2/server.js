@@ -9,11 +9,42 @@ server.views({
 });
 
 server.route({
-	method: 'GET',
+	method: 'GET',	
 	path: '/',
 	handler : function(request, reply) {
 		reply.view('index', { title: 'Assignment 2 : Hapi + Handlebars' });
-		//console.log('hello + ' + encodeURIComponent(request.params.name));
+	}
+});
+server.route({
+	method: 'GET',
+	path: '/assignment3',
+	handler: function(request, reply) {
+		reply.view('assignment3', { title: 'Assignment 3 : jQuery' });
+	}
+
+});
+
+server.route({
+	method: 'GET',
+	path: '/authors',
+	handler: function(request, reply)
+	{
+		reply([
+		{ firstName: "Niranrat", lastName: "A"		},
+		{ firstName: "Akachai", lastName: "K"		},
+		{ firstName: "Pichet", lastName: "B"		}
+
+		]);
+	}
+})
+
+server.route({
+	method: 'GET',
+	path: '/{param*}',
+	handler:  {
+		directory: {
+			path: 'app'
+		}
 	}
 });
 
