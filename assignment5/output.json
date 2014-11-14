@@ -1,0 +1,21 @@
+{
+  "Docuemnts": {
+    "Document": [
+      {
+        "Title": "Beginning Node.js",
+        "Description": "Beginning Node.js is your step-by-step guide to learning all the aspects of creating maintainable Node.js applications. ",
+        "Author": "Basarat Ali Syed"
+      },
+      {
+        "Title": "Pro Node.js for Developers",
+        "Description": "Pro Node.js for Developers provides readers already familiar with JavaScript with a stand-alone reference to Node.js",
+        "Author": "Colin J. Ihrig"
+      },
+      {
+        "Title": "Practical Node.js",
+        "Description": "Practical Node.js is your step-by-step guide to learning how to build scalable real-world web applications",
+        "Author": "Azat Mardan"
+      }
+    ]
+  }
+}

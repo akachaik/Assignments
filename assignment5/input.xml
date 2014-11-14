@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Docuemnts>
+  <Document>
+    <Title>Beginning Node.js</Title>
+    <Description>Beginning Node.js is your step-by-step guide to learning all the aspects of creating maintainable Node.js applications. </Description>
+    <Author>Basarat Ali Syed</Author>
+  </Document>
+  <Document>
+    <Title>Pro Node.js for Developers</Title>
+    <Description>Pro Node.js for Developers provides readers already familiar with JavaScript with a stand-alone reference to Node.js</Description>
+    <Author>Colin J. Ihrig</Author>
+  </Document>
+  <Document>
+    <Title>Practical Node.js</Title>
+    <Description>Practical Node.js is your step-by-step guide to learning how to build scalable real-world web applications</Description>
+    <Author>Azat Mardan</Author>
+  </Document>
+</Docuemnts>

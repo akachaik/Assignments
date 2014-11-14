@@ -1,0 +1,16 @@
+{
+  "name": "assignment5",
+  "version": "0.0.0",
+  "description": "assignment5",
+  "main": "app.js",
+  "author": {
+    "name": "Akachai.K",
+    "email": ""
+  },
+  "dependencies": {
+    "commander": "^2.5.0",
+    "fs": "0.0.2",
+    "stdio": "^0.2.3",
+    "xml2js": "^0.4.4"
+  }
+}
