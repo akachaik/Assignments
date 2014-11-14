@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doc>
+  <post>
+    <name>Ace 1</name>
+    <age>10</age>
+  </post>
+  <post>
+    <name>Ace 2</name>
+    <age>20</age>
+  </post>
+  <post>
+    <name>Ace 3</name>
+    <age>30</age>
+  </post>
+  <post>
+    <name>Ace 4</name>
+    <age>40</age>
+  </post>
+  <blog>
+    <title>Title 33</title>
+    <description>Description 1</description>
+  </blog>
+  <blog>
+    <title>Title 2</title>
+    <description>Description 2</description>
+    <views>4 Times</views>
+  </blog>
+  <blog>
+    <title>Title 3</title>
+    <description>Description 3</description>
+    <author>Akachai Kaning</author>
+    <views>3</views>
+  </blog>
+
+</doc>

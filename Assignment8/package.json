@@ -1,0 +1,19 @@
+{
+  "name": "Assignment8",
+  "version": "0.0.0",
+  "description": "Assignment8",
+  "main": "app.js",
+  "author": {
+    "name": "Akachai.K",
+    "email": ""
+  },
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "commander": "^2.5.0",
+    "fs": "0.0.2",
+    "lodash": "^2.4.1",
+    "mysql": "^2.5.3",
+    "sequelize": "^2.0.0-rc2",
+    "xml2js": "^0.4.4"
+  }
+}
