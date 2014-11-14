@@ -16,9 +16,11 @@
     "url": "https://github.com/akachaik/Assignments/issues"
   },
   "dependencies": {
-    "hapi": "~7.2.0",
     "handlebars": "~2.0.0",
-    "path": "~0.4.9",
-    "jquery": "~2.1.1"
+    "hapi": "~7.2.0",
+    "joi": "^4.8.1",
+    "jquery": "~2.1.1",
+    "mongoose": "^3.8.19",
+    "path": "~0.4.9"
   }
 }
